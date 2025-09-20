@@ -35,7 +35,7 @@ const Navigation = () => {
               </a>
             ))}
             <Button className="btn-primary">
-              Book Consultation
+              Free Consultation
             </Button>
           </div>
 
@@ -64,9 +64,9 @@ const Navigation = () => {
                   {item.name}
                 </a>
               ))}
-              <Button className="btn-primary mt-4">
-                Book Consultation
-              </Button>
+               <Button className="btn-primary mt-4">
+                 Free Consultation
+               </Button>
             </div>
           </div>
         )}

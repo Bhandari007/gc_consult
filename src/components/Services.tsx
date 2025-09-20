@@ -1,52 +1,52 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { 
-  TrendingUp, 
-  Users, 
-  Target, 
-  Lightbulb, 
-  BarChart3, 
-  Shield,
+  GraduationCap, 
+  FileText, 
+  Globe, 
+  CreditCard, 
+  Plane, 
+  Users,
   ArrowRight
 } from "lucide-react";
 
 const Services = () => {
   const services = [
     {
-      icon: TrendingUp,
-      title: "Business Strategy",
-      description: "Comprehensive strategic planning to drive sustainable growth and competitive advantage in your market.",
-      features: ["Market Analysis", "Competitive Positioning", "Growth Planning"]
+      icon: GraduationCap,
+      title: "University Selection",
+      description: "Expert guidance to choose the best universities and programs that match your academic goals and career aspirations.",
+      features: ["Program Matching", "University Rankings", "Career Alignment"]
+    },
+    {
+      icon: FileText,
+      title: "Application Assistance",
+      description: "Complete support with application documents including SOP, recommendation letters, and personal statements.",
+      features: ["SOP Writing", "Document Review", "Application Tracking"]
+    },
+    {
+      icon: Globe,
+      title: "Country Selection",
+      description: "Help you choose the ideal study destination based on your preferences, budget, and career goals.",
+      features: ["Country Comparison", "Cost Analysis", "Career Prospects"]
+    },
+    {
+      icon: CreditCard,
+      title: "Financial Planning",
+      description: "Comprehensive guidance on education loans, scholarships, and financial planning for your studies abroad.",
+      features: ["Loan Assistance", "Scholarship Search", "Budget Planning"]
+    },
+    {
+      icon: Plane,
+      title: "Visa Assistance",
+      description: "End-to-end visa application support with document preparation and interview coaching.",
+      features: ["Visa Documentation", "Interview Prep", "Application Tracking"]
     },
     {
       icon: Users,
-      title: "Organizational Development",
-      description: "Transform your team structure and culture to maximize productivity and employee engagement.",
-      features: ["Team Optimization", "Leadership Development", "Culture Transformation"]
-    },
-    {
-      icon: Target,
-      title: "Operational Excellence",
-      description: "Streamline processes and improve efficiency to reduce costs and enhance customer satisfaction.",
-      features: ["Process Optimization", "Quality Management", "Performance Metrics"]
-    },
-    {
-      icon: Lightbulb,
-      title: "Innovation Consulting",
-      description: "Foster innovation culture and implement cutting-edge solutions to stay ahead of competition.",
-      features: ["Innovation Strategy", "Digital Transformation", "Technology Integration"]
-    },
-    {
-      icon: BarChart3,
-      title: "Financial Advisory",
-      description: "Expert financial guidance to optimize cash flow, investments, and long-term financial health.",
-      features: ["Financial Planning", "Investment Strategy", "Risk Management"]
-    },
-    {
-      icon: Shield,
-      title: "Risk Management",
-      description: "Identify, assess, and mitigate business risks to protect your organization's future.",
-      features: ["Risk Assessment", "Compliance", "Crisis Management"]
+      title: "Pre-Departure Support",
+      description: "Complete preparation for your journey including accommodation, travel, and cultural orientation.",
+      features: ["Accommodation Help", "Travel Planning", "Cultural Orientation"]
     }
   ];
 
@@ -58,8 +58,8 @@ const Services = () => {
             Our Services
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            We provide comprehensive consulting services designed to address every aspect 
-            of your business challenges and opportunities.
+            We provide comprehensive education consulting services to guide you through 
+            every step of your study abroad journey.
           </p>
         </div>
 
@@ -97,10 +97,10 @@ const Services = () => {
 
         <div className="text-center fade-in">
           <p className="text-lg text-muted-foreground mb-6">
-            Need a custom solution? We create tailored strategies for unique business challenges.
+            Ready to start your study abroad journey? Let's discuss your educational goals and create a personalized plan.
           </p>
           <Button size="lg" className="btn-primary">
-            Discuss Custom Solution
+            Start Your Journey
           </Button>
         </div>
       </div>

@@ -4,28 +4,28 @@ import { Award, Globe, Users, TrendingUp } from "lucide-react";
 
 const About = () => {
   const stats = [
-    { icon: Users, value: "500+", label: "Clients Served" },
-    { icon: Globe, value: "50+", label: "Countries" },
-    { icon: Award, value: "15", label: "Years Experience" },
-    { icon: TrendingUp, value: "98%", label: "Success Rate" }
+    { icon: Users, value: "1000+", label: "Students Placed" },
+    { icon: Globe, value: "25+", label: "Countries" },
+    { icon: Award, value: "8", label: "Years Experience" },
+    { icon: TrendingUp, value: "95%", label: "Visa Success Rate" }
   ];
 
   const values = [
     {
       title: "Excellence",
-      description: "We deliver exceptional results through rigorous methodology and deep expertise."
+      description: "We deliver exceptional guidance through proven methodologies and deep education expertise."
     },
     {
-      title: "Integrity",
-      description: "Trust and transparency form the foundation of every client relationship."
+      title: "Trust",
+      description: "Transparency and honest advice form the foundation of every student relationship."
     },
     {
-      title: "Innovation",
-      description: "We embrace cutting-edge solutions to solve complex business challenges."
+      title: "Support",
+      description: "We provide comprehensive assistance from application to arrival in your destination country."
     },
     {
-      title: "Partnership",
-      description: "Your success is our success. We work as an extension of your team."
+      title: "Success",
+      description: "Your educational dreams are our priority. We celebrate every student's achievement."
     }
   ];
 
@@ -38,14 +38,14 @@ const About = () => {
               About GC Connecting Services
             </h2>
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-              For over 15 years, we've been the trusted partner for businesses seeking 
-              transformational growth. Our team of seasoned consultants brings together 
-              deep industry expertise and proven methodologies to deliver results that matter.
+              For over 8 years, we've been the trusted partner for students from Nepal, Canada, 
+              India, and Bangladesh seeking quality higher education abroad. Our team of experienced 
+              counselors brings together deep knowledge of international education systems and proven success strategies.
             </p>
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              We believe that every business has untapped potential. Our mission is to 
-              unlock that potential through strategic thinking, innovative solutions, 
-              and relentless execution.
+              We believe that every student deserves the opportunity to achieve their study abroad dreams. 
+              Our mission is to provide trusted advice, personalized guidance, and complete support 
+              throughout your educational journey.
             </p>
             
             <div className="grid grid-cols-2 gap-6 mb-8">
@@ -65,7 +65,7 @@ const About = () => {
             </div>
 
             <Button size="lg" className="btn-primary">
-              Meet Our Team
+              Meet Our Counselors
             </Button>
           </div>
 

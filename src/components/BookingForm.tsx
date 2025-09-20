@@ -69,8 +69,8 @@ const BookingForm = () => {
               Book Your Free Consultation
             </h2>
             <p className="text-xl text-muted-foreground">
-              Ready to transform your business? Schedule a complimentary strategy session 
-              with our expert consultants.
+              Ready to start your study abroad journey? Schedule a free consultation 
+              with our expert education counselors.
             </p>
           </div>
 
@@ -127,13 +127,13 @@ const BookingForm = () => {
                     <div className="grid md:grid-cols-2 gap-4">
                       <div className="space-y-2">
                         <label className="text-sm font-medium text-foreground">
-                          Company Name
+                          Current Education Level
                         </label>
                         <Input
                           name="company"
                           value={formData.company}
                           onChange={handleInputChange}
-                          placeholder="Your company"
+                          placeholder="e.g., Bachelor's, Master's, High School"
                         />
                       </div>
                       
@@ -186,7 +186,7 @@ const BookingForm = () => {
 
                     <div className="space-y-2">
                       <label className="text-sm font-medium text-foreground">
-                        Tell us about your challenge
+                        Tell us about your study abroad goals
                       </label>
                       <div className="relative">
                         <MessageSquare className="absolute left-3 top-3 h-4 w-4 text-muted-foreground" />
@@ -194,7 +194,7 @@ const BookingForm = () => {
                           name="message"
                           value={formData.message}
                           onChange={handleInputChange}
-                          placeholder="Describe your business challenge or what you'd like to discuss..."
+                          placeholder="Tell us about your preferred countries, courses, or any specific questions..."
                           className="pl-10 min-h-32"
                         />
                       </div>
@@ -222,19 +222,19 @@ const BookingForm = () => {
                   <ul className="space-y-3 text-sm text-muted-foreground">
                     <li className="flex items-start">
                       <div className="w-1.5 h-1.5 bg-secondary rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                      60-minute strategic discussion
+                      60-minute education consultation
                     </li>
                     <li className="flex items-start">
                       <div className="w-1.5 h-1.5 bg-secondary rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                      Business challenge assessment
+                      Study abroad goals assessment
                     </li>
                     <li className="flex items-start">
                       <div className="w-1.5 h-1.5 bg-secondary rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                      Customized solution roadmap
+                      Personalized study plan
                     </li>
                     <li className="flex items-start">
                       <div className="w-1.5 h-1.5 bg-secondary rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                      No commitment required
+                      No fees or commitments
                     </li>
                   </ul>
                 </CardContent>
@@ -252,7 +252,7 @@ const BookingForm = () => {
                     </div>
                     <div>
                       <div className="font-medium text-foreground">Email</div>
-                      <div className="text-muted-foreground">hello@strategicconsulting.com</div>
+                      <div className="text-muted-foreground">info@gcconnectingservices.com</div>
                     </div>
                     <div>
                       <div className="font-medium text-foreground">Office</div>

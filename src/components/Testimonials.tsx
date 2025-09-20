@@ -4,32 +4,32 @@ import { Star, Quote } from "lucide-react";
 const Testimonials = () => {
   const testimonials = [
     {
-      name: "Sarah Johnson",
-      title: "CEO, TechVision Inc.",
-      content: "GC Connecting Services transformed our business model and helped us achieve 300% growth in just 18 months. Their expertise in digital transformation was exactly what we needed.",
+      name: "Priya Sharma",
+      title: "MBA Student at Stanford University",
+      content: "GC Connecting Services made my dream of studying at Stanford a reality. Their guidance on university selection and application process was exceptional. I got accepted with a scholarship!",
       rating: 5,
-      company: "TechVision Inc."
+      country: "From India"
     },
     {
-      name: "Michael Chen",
-      title: "Founder, GreenTech Solutions",
-      content: "The team's strategic insights and hands-on approach helped us navigate a critical market shift. Their recommendations saved us millions and positioned us as industry leaders.",
+      name: "Raj Patel",
+      title: "Engineering Student at University of Toronto",
+      content: "The team helped me navigate the complex Canadian education system. From visa application to finding accommodation, they supported me throughout my journey to Canada.",
       rating: 5,
-      company: "GreenTech Solutions"
+      country: "From Nepal"
     },
     {
-      name: "Emily Rodriguez",
-      title: "COO, Global Manufacturing",
-      content: "Working with GC Connecting Services was a game-changer. They optimized our operations, reduced costs by 40%, and improved our customer satisfaction scores significantly.",
+      name: "Fatima Rahman",
+      title: "Master's Student at University of Melbourne",
+      content: "Thanks to GC Connecting Services, I'm now pursuing my Master's in Australia. Their financial planning advice helped me secure education loan and manage my budget effectively.",
       rating: 5,
-      company: "Global Manufacturing"
+      country: "From Bangladesh"
     },
     {
-      name: "David Park",
-      title: "VP Strategy, FinanceFirst",
-      content: "Their financial advisory services helped us restructure our portfolio and identify new investment opportunities. ROI improved by 250% within the first year.",
+      name: "Sarah Thompson",
+      title: "PhD Student at Oxford University",
+      content: "Their expertise in UK education system was invaluable. The team helped me craft a compelling SOP and prepared me for interviews. I'm now doing my PhD at Oxford!",
       rating: 5,
-      company: "FinanceFirst"
+      country: "From Canada"
     }
   ];
 
@@ -38,11 +38,11 @@ const Testimonials = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 fade-in">
           <h2 className="text-4xl lg:text-5xl font-heading font-bold text-primary mb-6">
-            Client Success Stories
+            Student Success Stories
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Don't just take our word for it. Here's what our clients say about 
-            the transformational results we've achieved together.
+            Hear from our students who have successfully achieved their study abroad 
+            dreams with our guidance and support.
           </p>
         </div>
 
@@ -71,7 +71,7 @@ const Testimonials = () => {
                     {testimonial.title}
                   </div>
                   <div className="text-sm text-secondary font-medium mt-1">
-                    {testimonial.company}
+                    {testimonial.country}
                   </div>
                 </div>
               </CardContent>
@@ -81,18 +81,18 @@ const Testimonials = () => {
 
         <div className="bg-gradient-primary rounded-2xl p-8 lg:p-12 text-center text-white fade-in">
           <h3 className="text-3xl font-heading font-bold mb-4">
-            Ready to Join Our Success Stories?
+            Ready to Start Your Study Abroad Journey?
           </h3>
           <p className="text-xl text-gray-200 mb-8 max-w-2xl mx-auto">
-            Let's discuss how we can help transform your business and achieve 
-            breakthrough results together.
+            Join thousands of successful students who have achieved their dreams 
+            of studying abroad with our expert guidance.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="btn-secondary px-8 py-4 text-lg font-semibold rounded-lg">
-              Schedule Consultation
+              Book Free Consultation
             </button>
             <button className="btn-outline px-8 py-4 text-lg font-semibold rounded-lg border-white text-white hover:bg-white hover:text-primary">
-              View Case Studies
+              View Success Stories
             </button>
           </div>
         </div>
