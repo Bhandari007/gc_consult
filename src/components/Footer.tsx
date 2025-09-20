@@ -46,7 +46,7 @@ const Footer = () => {
           {/* Company Info */}
           <div className="lg:col-span-1">
             <h3 className="text-2xl font-heading font-bold mb-4">
-              Strategic Consulting
+              GC Connecting Services
             </h3>
             <p className="text-gray-300 mb-6 leading-relaxed">
               Transforming businesses through strategic excellence, 
@@ -60,7 +60,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center">
                 <Mail className="h-4 w-4 mr-3 text-secondary" />
-                <span>hello@strategicconsulting.com</span>
+                <span>hello@gcconnectingservices.com</span>
               </div>
               <div className="flex items-start">
                 <MapPin className="h-4 w-4 mr-3 mt-0.5 text-secondary" />
@@ -131,7 +131,7 @@ const Footer = () => {
 
         <div className="flex flex-col md:flex-row justify-between items-center text-sm text-gray-300">
           <div className="mb-4 md:mb-0">
-            <p>&copy; 2024 Strategic Consulting. All rights reserved.</p>
+            <p>&copy; 2024 GC Connecting Services. All rights reserved.</p>
           </div>
           <div className="flex space-x-6">
             <a href="#" className="hover:text-secondary transition-colors duration-200">

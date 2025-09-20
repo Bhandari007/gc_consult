@@ -60,7 +60,7 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      details: ["hello@strategicconsulting.com", "support@strategicconsulting.com"]
+      details: ["hello@gcconnectingservices.com", "support@gcconnectingservices.com"]
     },
     {
       icon: Clock,

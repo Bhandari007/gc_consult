@@ -19,7 +19,7 @@ const Navigation = () => {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
             <h1 className="text-2xl font-heading font-bold text-primary">
-              Strategic Consulting
+              GC Connecting Services
             </h1>
           </div>
 

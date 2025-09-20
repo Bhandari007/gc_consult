@@ -6,7 +6,7 @@ const Testimonials = () => {
     {
       name: "Sarah Johnson",
       title: "CEO, TechVision Inc.",
-      content: "Strategic Consulting transformed our business model and helped us achieve 300% growth in just 18 months. Their expertise in digital transformation was exactly what we needed.",
+      content: "GC Connecting Services transformed our business model and helped us achieve 300% growth in just 18 months. Their expertise in digital transformation was exactly what we needed.",
       rating: 5,
       company: "TechVision Inc."
     },
@@ -20,7 +20,7 @@ const Testimonials = () => {
     {
       name: "Emily Rodriguez",
       title: "COO, Global Manufacturing",
-      content: "Working with Strategic Consulting was a game-changer. They optimized our operations, reduced costs by 40%, and improved our customer satisfaction scores significantly.",
+      content: "Working with GC Connecting Services was a game-changer. They optimized our operations, reduced costs by 40%, and improved our customer satisfaction scores significantly.",
       rating: 5,
       company: "Global Manufacturing"
     },

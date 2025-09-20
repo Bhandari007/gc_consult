@@ -35,7 +35,7 @@ const About = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div className="fade-in">
             <h2 className="text-4xl lg:text-5xl font-heading font-bold text-primary mb-6">
-              About Strategic Consulting
+              About GC Connecting Services
             </h2>
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
               For over 15 years, we've been the trusted partner for businesses seeking 
