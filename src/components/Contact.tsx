@@ -50,7 +50,7 @@ const Contact = () => {
     {
       icon: MapPin,
       title: "Office Location",
-      details: ["123 Business District", "New York, NY 10001", "United States"]
+      details: ["Eaton Centre, 1 Dundas St W #2500", "Toronto, ON M5G 1Z3", "Located in: CF Toronto Eaton Centre"]
     },
     {
       icon: Phone,

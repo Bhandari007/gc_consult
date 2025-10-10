@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
+import logo from "@/assets/GCS_logo.png";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,9 +19,11 @@ const Navigation = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
-            <h1 className="text-2xl font-heading font-bold text-primary">
-              GC Connecting Services
-            </h1>
+            <img 
+              src={logo} 
+              alt="GC Connecting Services - Global Guidance, Trusted Connections" 
+              className="h-12 w-auto"
+            />
           </div>
 
           {/* Desktop Navigation */}

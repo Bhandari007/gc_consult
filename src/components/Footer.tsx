@@ -64,7 +64,7 @@ const Footer = () => {
               </div>
               <div className="flex items-start">
                 <MapPin className="h-4 w-4 mr-3 mt-0.5 text-secondary" />
-                <span>123 Business District<br />New York, NY 10001</span>
+                <span>Eaton Centre, 1 Dundas St W #2500<br />Toronto, ON M5G 1Z3<br />Located in: CF Toronto Eaton Centre</span>
               </div>
             </div>
           </div>
