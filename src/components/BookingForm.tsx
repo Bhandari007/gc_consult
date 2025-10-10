@@ -69,8 +69,8 @@ const BookingForm = () => {
               Book Your Free Consultation
             </h2>
             <p className="text-xl text-muted-foreground">
-              Ready to start your study abroad journey? Schedule a free consultation 
-              with our expert education counselors.
+              Ready to explore our consulting services? Schedule a free consultation to discuss 
+              your goals—whether in education, travel, finance, or non-profit sectors.
             </p>
           </div>
 
@@ -127,13 +127,13 @@ const BookingForm = () => {
                     <div className="grid md:grid-cols-2 gap-4">
                       <div className="space-y-2">
                         <label className="text-sm font-medium text-foreground">
-                          Current Education Level
+                          Service of Interest
                         </label>
                         <Input
                           name="company"
                           value={formData.company}
                           onChange={handleInputChange}
-                          placeholder="e.g., Bachelor's, Master's, High School"
+                          placeholder="e.g., Education, Tourism, Banking, NGO"
                         />
                       </div>
                       
@@ -186,7 +186,7 @@ const BookingForm = () => {
 
                     <div className="space-y-2">
                       <label className="text-sm font-medium text-foreground">
-                        Tell us about your study abroad goals
+                        Tell us about your goals
                       </label>
                       <div className="relative">
                         <MessageSquare className="absolute left-3 top-3 h-4 w-4 text-muted-foreground" />
@@ -194,7 +194,7 @@ const BookingForm = () => {
                           name="message"
                           value={formData.message}
                           onChange={handleInputChange}
-                          placeholder="Tell us about your preferred countries, courses, or any specific questions..."
+                          placeholder="Share your goals, challenges, or specific questions..."
                           className="pl-10 min-h-32"
                         />
                       </div>
@@ -222,15 +222,15 @@ const BookingForm = () => {
                   <ul className="space-y-3 text-sm text-muted-foreground">
                     <li className="flex items-start">
                       <div className="w-1.5 h-1.5 bg-secondary rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                      60-minute education consultation
+                      60-minute consultation session
                     </li>
                     <li className="flex items-start">
                       <div className="w-1.5 h-1.5 bg-secondary rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                      Study abroad goals assessment
+                      Comprehensive needs assessment
                     </li>
                     <li className="flex items-start">
                       <div className="w-1.5 h-1.5 bg-secondary rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                      Personalized study plan
+                      Personalized action plan
                     </li>
                     <li className="flex items-start">
                       <div className="w-1.5 h-1.5 bg-secondary rounded-full mt-2 mr-3 flex-shrink-0"></div>
@@ -252,7 +252,7 @@ const BookingForm = () => {
                     </div>
                     <div>
                       <div className="font-medium text-foreground">Email</div>
-                      <div className="text-muted-foreground">info@gcconnectingservices.com</div>
+                      <div className="text-muted-foreground">bmuskan007@gmail.com</div>
                     </div>
                     <div>
                       <div className="font-medium text-foreground">Office</div>

@@ -19,13 +19,13 @@ const Hero = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="text-white fade-in">
             <h1 className="text-5xl lg:text-6xl font-heading font-bold mb-6 leading-tight">
-              Your Gateway to 
-              <span className="text-secondary"> Global Education</span>
+              Multi-Domain Consulting 
+              <span className="text-secondary"> Expertise You Can Trust</span>
             </h1>
             
             <p className="text-xl mb-8 text-gray-200 leading-relaxed">
-              Expert guidance for students from Nepal, Canada, India, and Bangladesh to achieve 
-              their study abroad dreams with trusted advice and complete support.
+              From study abroad guidance to tourism, financial, and NGO advisory—GC Connecting Services 
+              delivers strategic consulting across Education, Travel, Banking, and Non-Profit sectors.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
@@ -41,15 +41,15 @@ const Hero = () => {
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm">
               <div className="flex items-center">
                 <CheckCircle className="h-5 w-5 text-secondary mr-2" />
-                <span>1000+ Students Placed</span>
+                <span>1000+ Students Guided</span>
               </div>
               <div className="flex items-center">
                 <CheckCircle className="h-5 w-5 text-secondary mr-2" />
-                <span>Expert Counselors</span>
+                <span>Multi-Domain Expertise</span>
               </div>
               <div className="flex items-center">
                 <CheckCircle className="h-5 w-5 text-secondary mr-2" />
-                <span>Visa Success Rate 95%</span>
+                <span>Trusted by Businesses & NGOs</span>
               </div>
             </div>
           </div>
@@ -57,13 +57,13 @@ const Hero = () => {
           <div className="hidden lg:block slide-up">
             <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-8 border border-white/20">
               <h3 className="text-2xl font-heading font-semibold text-white mb-4">
-                Study Abroad Assessment
+                Free Consultation
               </h3>
               <p className="text-gray-200 mb-6">
-                Get your personalized study abroad plan in under 2 minutes.
+                Discover how our consulting services can help you achieve your goals—education, business, or impact.
               </p>
               <Button className="btn-secondary w-full">
-                Start Assessment
+                Book Now
               </Button>
             </div>
           </div>

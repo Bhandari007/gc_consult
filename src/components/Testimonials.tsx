@@ -38,11 +38,10 @@ const Testimonials = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 fade-in">
           <h2 className="text-4xl lg:text-5xl font-heading font-bold text-primary mb-6">
-            Student Success Stories
+            What Our Clients Say
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Hear from our students who have successfully achieved their study abroad 
-            dreams with our guidance and support.
+            Success stories from students, businesses, and organizations we've helped grow.
           </p>
         </div>
 
@@ -81,18 +80,18 @@ const Testimonials = () => {
 
         <div className="bg-gradient-primary rounded-2xl p-8 lg:p-12 text-center text-white fade-in">
           <h3 className="text-3xl font-heading font-bold mb-4">
-            Ready to Start Your Study Abroad Journey?
+            Ready to Transform Your Goals Into Reality?
           </h3>
           <p className="text-xl text-gray-200 mb-8 max-w-2xl mx-auto">
-            Join thousands of successful students who have achieved their dreams 
-            of studying abroad with our expert guidance.
+            Whether you're a student, business, or organization—discover how our multi-domain 
+            expertise can help you achieve exceptional results.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="btn-secondary px-8 py-4 text-lg font-semibold rounded-lg">
               Book Free Consultation
             </button>
             <button className="btn-outline px-8 py-4 text-lg font-semibold rounded-lg border-white text-white hover:bg-white hover:text-primary">
-              View Success Stories
+              View All Services
             </button>
           </div>
         </div>

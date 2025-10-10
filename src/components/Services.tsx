@@ -14,39 +14,27 @@ const Services = () => {
   const services = [
     {
       icon: GraduationCap,
-      title: "University Selection",
-      description: "Expert guidance to choose the best universities and programs that match your academic goals and career aspirations.",
-      features: ["Program Matching", "University Rankings", "Career Alignment"]
-    },
-    {
-      icon: FileText,
-      title: "Application Assistance",
-      description: "Complete support with application documents including SOP, recommendation letters, and personal statements.",
-      features: ["SOP Writing", "Document Review", "Application Tracking"]
-    },
-    {
-      icon: Globe,
-      title: "Country Selection",
-      description: "Help you choose the ideal study destination based on your preferences, budget, and career goals.",
-      features: ["Country Comparison", "Cost Analysis", "Career Prospects"]
-    },
-    {
-      icon: CreditCard,
-      title: "Financial Planning",
-      description: "Comprehensive guidance on education loans, scholarships, and financial planning for your studies abroad.",
-      features: ["Loan Assistance", "Scholarship Search", "Budget Planning"]
+      title: "International Student Advisory",
+      description: "Our flagship service guiding students from Nepal, Canada, India, and Bangladesh through their entire study abroad journey with personalized support.",
+      features: ["University Applications", "Visa & IELTS Support", "Scholarships & Housing", "Cultural Adjustment"]
     },
     {
       icon: Plane,
-      title: "Visa Assistance",
-      description: "End-to-end visa application support with document preparation and interview coaching.",
-      features: ["Visa Documentation", "Interview Prep", "Application Tracking"]
+      title: "Travel & Tourism Consulting",
+      description: "Strategic consulting for travel and tourism businesses to streamline operations, enhance customer experience, and achieve sustainable growth.",
+      features: ["Booking & Invoicing Systems", "Eco-Tourism Support", "Risk Management", "Partnership Development"]
+    },
+    {
+      icon: CreditCard,
+      title: "Banking & Insurance Solutions",
+      description: "Expert advisory helping individuals, families, and small businesses access the right financial products with confidence and clarity.",
+      features: ["Loan & Insurance Access", "Financial Literacy", "Documentation Support", "Risk Management"]
     },
     {
       icon: Users,
-      title: "Pre-Departure Support",
-      description: "Complete preparation for your journey including accommodation, travel, and cultural orientation.",
-      features: ["Accommodation Help", "Travel Planning", "Cultural Orientation"]
+      title: "Non-Profit & NGO Advisory",
+      description: "Empowering NGOs and non-profits to maximize their impact through strategic fundraising, compliance, and capacity building support.",
+      features: ["Fundraising Strategy", "Donor Engagement", "Compliance & Governance", "Digital Adoption"]
     }
   ];
 
@@ -55,15 +43,15 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 fade-in">
           <h2 className="text-4xl lg:text-5xl font-heading font-bold text-primary mb-6">
-            Our Services
+            Our Consulting Services
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            We provide comprehensive education consulting services to guide you through 
-            every step of your study abroad journey.
+            From international education to tourism, finance, and non-profit sectors—we deliver 
+            trusted expertise and strategic guidance across multiple domains.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           {services.map((service, index) => (
             <Card key={service.title} className="group hover:shadow-elegant-lg transition-all duration-300 hover:-translate-y-2 slide-up border-0 shadow-elegant" style={{ animationDelay: `${index * 100}ms` }}>
               <CardHeader>
@@ -97,10 +85,10 @@ const Services = () => {
 
         <div className="text-center fade-in">
           <p className="text-lg text-muted-foreground mb-6">
-            Ready to start your study abroad journey? Let's discuss your educational goals and create a personalized plan.
+            Whether you're a student, business, or organization—let's work together to achieve your goals with expert guidance.
           </p>
           <Button size="lg" className="btn-primary">
-            Start Your Journey
+            Schedule a Consultation
           </Button>
         </div>
       </div>

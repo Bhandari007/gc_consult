@@ -14,12 +14,12 @@ import {
 const Footer = () => {
   const footerLinks = {
     services: [
+      "International Student Advisory",
+      "Travel & Tourism Consulting", 
+      "Banking & Insurance Solutions",
+      "Non-Profit & NGO Advisory",
       "University Selection",
-      "Application Assistance", 
-      "Visa Support",
-      "Financial Planning",
-      "Country Selection",
-      "Pre-Departure Support"
+      "Visa Support"
     ],
     company: [
       "About Us",
@@ -33,8 +33,8 @@ const Footer = () => {
       "Study Guides",
       "Country Guides",
       "Scholarship Database",
-      "University Rankings",
-      "Student Stories",
+      "Tourism Resources",
+      "Financial Planning Tools",
       "FAQ"
     ]
   };
@@ -49,8 +49,8 @@ const Footer = () => {
               GC Connecting Services
             </h3>
             <p className="text-gray-300 mb-6 leading-relaxed">
-              Guiding students from Nepal, Canada, India, and Bangladesh to achieve 
-              their study abroad dreams through trusted advice and expert support.
+              Multi-domain consulting firm delivering expert services across Education, 
+              Travel & Tourism, Banking & Insurance, and Non-Profit sectors.
             </p>
             
             <div className="space-y-3 text-sm">
@@ -60,7 +60,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center">
                 <Mail className="h-4 w-4 mr-3 text-secondary" />
-                <span>info@gcconnectingservices.com</span>
+                <span>bmuskan007@gmail.com</span>
               </div>
               <div className="flex items-start">
                 <MapPin className="h-4 w-4 mr-3 mt-0.5 text-secondary" />
@@ -101,7 +101,7 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold text-lg mb-4">Stay Updated</h4>
             <p className="text-gray-300 mb-4 text-sm">
-              Get the latest study abroad tips and education updates delivered to your inbox.
+              Get the latest consulting insights, industry updates, and success stories delivered to your inbox.
             </p>
             <div className="flex gap-2 mb-4">
               <Input 

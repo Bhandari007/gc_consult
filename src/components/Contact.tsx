@@ -60,7 +60,7 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      details: ["info@gcconnectingservices.com", "support@gcconnectingservices.com"]
+      details: ["bmuskan007@gmail.com", "support@gcconnectingservices.com"]
     },
     {
       icon: Clock,
@@ -77,8 +77,8 @@ const Contact = () => {
             Get In Touch
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Ready to start your transformation journey? We'd love to hear from you. 
-            Reach out and let's discuss how we can help achieve your business goals.
+            Have questions about our consulting services? Whether you need education guidance, travel solutions, 
+            financial advisory, or NGO support—we're here to help.
           </p>
         </div>
 
@@ -172,14 +172,14 @@ const Contact = () => {
 
             <div className="bg-gradient-primary rounded-xl p-6 text-white">
               <h4 className="font-heading font-semibold text-xl mb-3">
-                Emergency Support
+                Priority Support
               </h4>
               <p className="text-gray-200 mb-4">
-                Need urgent assistance? Our emergency support line is available 24/7 
-                for existing clients facing critical business challenges.
+                Need urgent consultation? Our priority support is available for time-sensitive 
+                decisions in education, business, or organizational matters.
               </p>
               <Button variant="outline" className="btn-outline border-white text-white hover:bg-white hover:text-primary">
-                Call Emergency Line
+                Request Priority Call
               </Button>
             </div>
           </div>

@@ -13,19 +13,19 @@ const About = () => {
   const values = [
     {
       title: "Excellence",
-      description: "We deliver exceptional guidance through proven methodologies and deep education expertise."
+      description: "We deliver exceptional guidance through proven methodologies and deep multi-domain expertise."
     },
     {
       title: "Trust",
-      description: "Transparency and honest advice form the foundation of every student relationship."
+      description: "Transparency and honest advice form the foundation of every client relationship across all sectors."
     },
     {
-      title: "Support",
-      description: "We provide comprehensive assistance from application to arrival in your destination country."
+      title: "Impact",
+      description: "From students achieving their dreams to NGOs expanding their reach—we measure success by your results."
     },
     {
-      title: "Success",
-      description: "Your educational dreams are our priority. We celebrate every student's achievement."
+      title: "Partnership",
+      description: "We work alongside you as strategic partners, committed to your long-term growth and success."
     }
   ];
 
@@ -38,14 +38,15 @@ const About = () => {
               About GC Connecting Services
             </h2>
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-              For over 8 years, we've been the trusted partner for students from Nepal, Canada, 
-              India, and Bangladesh seeking quality higher education abroad. Our team of experienced 
-              counselors brings together deep knowledge of international education systems and proven success strategies.
+              For over 8 years, GC Connecting Services has been a trusted multi-domain consulting firm 
+              serving students, businesses, and organizations across Education, Travel & Tourism, 
+              Banking & Insurance, and Non-Profit sectors.
             </p>
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              We believe that every student deserves the opportunity to achieve their study abroad dreams. 
-              Our mission is to provide trusted advice, personalized guidance, and complete support 
-              throughout your educational journey.
+              While our flagship service remains International Student Advisory—helping students from 
+              Nepal, Canada, India, and Bangladesh achieve their study abroad dreams—we've expanded to 
+              offer strategic consulting that empowers travel businesses, financial institutions, and NGOs 
+              to achieve sustainable growth and meaningful impact.
             </p>
             
             <div className="grid grid-cols-2 gap-6 mb-8">
@@ -65,7 +66,7 @@ const About = () => {
             </div>
 
             <Button size="lg" className="btn-primary">
-              Meet Our Counselors
+              Meet Our Team
             </Button>
           </div>
 
