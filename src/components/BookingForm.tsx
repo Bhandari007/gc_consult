@@ -228,7 +228,7 @@ const BookingForm = () => {
                   <ul className="space-y-3 text-sm text-muted-foreground">
                     <li className="flex items-start">
                       <div className="w-1.5 h-1.5 bg-secondary rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                      60-minute consultation session
+                      30-minute consultation session
                     </li>
                     <li className="flex items-start">
                       <div className="w-1.5 h-1.5 bg-secondary rounded-full mt-2 mr-3 flex-shrink-0"></div>
@@ -254,7 +254,7 @@ const BookingForm = () => {
                   <div className="space-y-3 text-sm">
                     <div>
                       <div className="font-medium text-foreground">Phone</div>
-                      <div className="text-muted-foreground">+1 (555) 123-4567</div>
+                      <div className="text-muted-foreground">(647) 233-9371</div>
                     </div>
                     <div>
                       <div className="font-medium text-foreground">Email</div>
