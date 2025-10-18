@@ -55,7 +55,7 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Phone",
-      details: ["+1 (555) 123-4567", "+1 (555) 123-4568"]
+      details: ["(647) 233-9371", "(437) 505-2726"]
     },
     {
       icon: Mail,
@@ -65,7 +65,7 @@ const Contact = () => {
     {
       icon: Clock,
       title: "Business Hours",
-      details: ["Monday - Friday: 9:00 AM - 6:00 PM", "Saturday: 10:00 AM - 2:00 PM", "Sunday: Closed"]
+      details: ["Monday - Friday: 10:00 AM - 5:00 PM",  "Booking: 24x7"]
     }
   ];
 
