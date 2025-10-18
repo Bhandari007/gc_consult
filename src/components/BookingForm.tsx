@@ -254,11 +254,13 @@ const BookingForm = () => {
                   <div className="space-y-3 text-sm">
                     <div>
                       <div className="font-medium text-foreground">Phone</div>
+
+                      <div className="text-muted-foreground">(437) 505-2726</div>
                       <div className="text-muted-foreground">(647) 233-9371</div>
                     </div>
                     <div>
                       <div className="font-medium text-foreground">Email</div>
-                      <div className="text-muted-foreground">bhanuharib02@gmail.com</div>
+                      <div className="text-muted-foreground">connectingservices111@gmail.com</div>
                     </div>
                     <div>
                       <div className="font-medium text-foreground">Office</div>
