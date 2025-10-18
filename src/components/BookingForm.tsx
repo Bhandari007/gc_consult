@@ -31,7 +31,7 @@ const BookingForm = () => {
     setIsSubmitting(true);
 
     try {
-      const res = await fetch("http://localhost:5000/api/send-booking-email", {
+      const res = await fetch("/api/send-booking-email", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
