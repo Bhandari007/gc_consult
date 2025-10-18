@@ -15,29 +15,29 @@ const Services = () => {
     {
       icon: GraduationCap,
       title: "International Student Advisory",
-      description: "Our flagship service guiding students from Nepal, Canada, India, and Bangladesh through their entire study abroad journey with personalized support.",
-      features: ["University Applications", "Visa & IELTS Support", "Scholarships & Housing", "Cultural Adjustment"]
+      description: "Our advisory partnership guides international students through their entire study abroad journey, ensuring a smoother and less stressful transition.",
+      features: ["University & School Applications", "Visa & Language Test Support", "Scholarships & Funding", "Housing & Cultural Adjustment"]
     },
     {
       icon: Plane,
       title: "Travel & Tourism Consulting",
-      description: "Strategic consulting for travel and tourism businesses to streamline operations, enhance customer experience, and achieve sustainable growth.",
-      features: ["Booking & Invoicing Systems", "Eco-Tourism Support", "Risk Management", "Partnership Development"]
+      description: "Strategic guidance for travel and tourism businesses to streamline operations, enhance customer experience, and achieve sustainable growth.",
+      features: ["Booking & Invoicing System Advice", "Risk Management & Crisis Prep", "Eco-Tourism & Sustainability", "Partnerships & Vendor Negotiation"]
     },
     {
       icon: CreditCard,
       title: "Banking & Insurance Solutions",
-      description: "Expert advisory helping individuals, families, and small businesses access the right financial products with confidence and clarity.",
-      features: ["Loan & Insurance Access", "Financial Literacy", "Documentation Support", "Risk Management"]
+      description: "Expert advisory helping individuals, families, newcomers, and small businesses access the right financial products with confidence and clarity.",
+      features: ["Loan & Insurance Needs Assessment", "Financial Literacy & Credit Repair", "Documentation & Compliance Support", "Risk Management & Debt Restructuring"]
     },
     {
       icon: Users,
       title: "Non-Profit & NGO Advisory",
-      description: "Empowering NGOs and non-profits to maximize their impact through strategic fundraising, compliance, and capacity building support.",
-      features: ["Fundraising Strategy", "Donor Engagement", "Compliance & Governance", "Digital Adoption"]
+      description: "Empowering non-profits and NGOs to maximize their impact through strategic planning, resource mobilization, and capacity building support.",
+      features: ["Fundraising Strategy & Grant Applications", "Donor & Stakeholder Engagement", "Governance & Compliance", "Digital Adoption & Advocacy"]
     }
   ];
-
+  
   return (
     <section id="services" className="section-alt">
       <div className="container mx-auto px-4">

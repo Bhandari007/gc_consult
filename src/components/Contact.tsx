@@ -50,7 +50,7 @@ const Contact = () => {
     {
       icon: MapPin,
       title: "Office Location",
-      details: ["Eaton Centre, 1 Dundas St W #2500", "Toronto, ON M5G 1Z3", "Located in: CF Toronto Eaton Centre"]
+      details: ["Eaton Centre, 1 Dundas St W #2500", "Toronto, ON M5G 1Z3"]
     },
     {
       icon: Phone,
@@ -60,7 +60,7 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      details: ["bmuskan007@gmail.com", "support@gcconnectingservices.com"]
+      details: ["bhanuharib02@gmail.com"]
     },
     {
       icon: Clock,
@@ -170,7 +170,7 @@ const Contact = () => {
               </Card>
             ))}
 
-            <div className="bg-gradient-primary rounded-xl p-6 text-white">
+            {/* <div className="bg-gradient-primary rounded-xl p-6 text-white">
               <h4 className="font-heading font-semibold text-xl mb-3">
                 Priority Support
               </h4>
@@ -181,7 +181,7 @@ const Contact = () => {
               <Button variant="outline" className="btn-outline border-white text-white hover:bg-white hover:text-primary">
                 Request Priority Call
               </Button>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

@@ -24,22 +24,26 @@ const BookingForm = () => {
     setFormData(prev => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = async (e: React.FormEvent) => {
+    const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    console.log("📤 Form submit triggered"); // ✅ Add this line
+
     setIsSubmitting(true);
 
-    // Simulate form submission
     try {
-      // In a real implementation, you would send this data to your backend
-      // which would then send an email notification
-      await new Promise(resolve => setTimeout(resolve, 1000));
-      
+      const res = await fetch("http://localhost:5000/api/send-booking-email", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+
+      if (!res.ok) throw new Error("Failed to send email");
+
       toast({
         title: "Consultation Booked!",
         description: "We'll contact you within 24 hours to confirm your appointment.",
       });
-      
-      // Reset form
+
       setFormData({
         name: "",
         email: "",
@@ -47,7 +51,7 @@ const BookingForm = () => {
         phone: "",
         preferredDate: "",
         preferredTime: "",
-        message: ""
+        message: "",
       });
     } catch (error) {
       toast({
@@ -59,6 +63,8 @@ const BookingForm = () => {
       setIsSubmitting(false);
     }
   };
+
+
 
   return (
     <section className="section-alt">
@@ -252,13 +258,13 @@ const BookingForm = () => {
                     </div>
                     <div>
                       <div className="font-medium text-foreground">Email</div>
-                      <div className="text-muted-foreground">bmuskan007@gmail.com</div>
+                      <div className="text-muted-foreground">bhanuharib02@gmail.com</div>
                     </div>
                     <div>
                       <div className="font-medium text-foreground">Office</div>
                       <div className="text-muted-foreground">
-                        123 Business District<br />
-                        New York, NY 10001
+                        Eaton Centre, 1 Dundas St W #2500<br />
+                        Toronto, ON M5G 1Z3
                       </div>
                     </div>
                   </div>
