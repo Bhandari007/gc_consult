@@ -5,8 +5,8 @@ import { Award, Globe, Users, TrendingUp } from "lucide-react";
 const About = () => {
   const stats = [
     // { icon: Users, value: "0+", label: "Students Placed" },
-    { icon: Globe, value: "5+", label: "Countries" },
-    { icon: Award, value: "1", label: "Years Experience" },
+    { icon: Globe, value: "6", label: "Countries" },
+    { icon: Award, value: "8", label: "Years Experience" },
     // { icon: TrendingUp, value: "0%", label: "Visa Success Rate" }
   ];
 
@@ -44,7 +44,7 @@ const About = () => {
             </p>
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
               While our flagship service remains International Student Advisory—helping students from 
-              Nepal, Canada, India, and Bangladesh achieve their study abroad dreams—we've expanded to 
+              Nepal, Canada, India, Australia, America and UK achieve their study abroad dreams—we've expanded to 
               offer strategic consulting that empowers travel businesses, financial institutions, and NGOs 
               to achieve sustainable growth and meaningful impact.
             </p>
