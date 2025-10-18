@@ -50,7 +50,7 @@ app.post("/api/send-booking-email", async (req, res) => {
         <p>Thank you for booking a consultation with us!</p>
         <p>We’ll reach out to confirm your appointment soon.</p>
         <br/>
-        <p>— Your Company Team</p>
+        <p>—GC Consulting Team</p>
       `,
     });
     console.log("✅ Email email sent:");
