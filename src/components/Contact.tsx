@@ -55,17 +55,17 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Phone",
-      details: ["(647) 233-9371", "(437) 505-2726"]
+      details: ["(437) 505-2726","(647) 233-9371"]
     },
     {
       icon: Mail,
       title: "Email",
-      details: ["bhanuharib02@gmail.com"]
+      details: ["connectingservices111@gmail.com"]
     },
     {
       icon: Clock,
       title: "Business Hours",
-      details: ["Monday - Friday: 10:00 AM - 5:00 PM",  "Booking: 24x7"]
+      details: ["Monday - Friday: 10:00 AM - 5:00 PM",  "Booking Time: 24x7"]
     }
   ];
 
